@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <div class="cabecalho">
+        <h1 id="title">Formulários - Projeto 4º Bimestre</h1>
+        <p class="name">Danielly Rodrigues de Matos - 12B</p>
+    </div>
+
+    <div class="formulario">
+        <form action="" class="centro">
+            <fieldset>
+
+                <div class="dados">
+                    <div class="input">
+                        <label for="nome">Nome:</label>
+                        <input id="nome" type="text" placeholder="Digite aqui o seu nome">
+                    </div>
+
+                    <div class="input">
+                        <label for="email">E-mail:</label>
+                        <input id="email" type="email" placeholder="Digite aqui o seu e-mail">
+                    </div>
+
+                    <div class="input">
+                        <label for="idade">Idade:</label>
+                        <input id="idade" type="number" placeholder="Digite aqui a sua idade">
+                    </div>
+                </div>
+
+                <div class="select">
+                    <p>Selecione abaixo sua turma</p>
+                    <select name="Turmas" id="turmas">
+                        <option value="" disabled selected>Selecione a sua ocupação</option>
+                        <option value="12a">12A</option>
+                        <option value="12b">12B</option>
+                        <option value="12c">12C</option>
+                    </select>
+                </div>
+
+                <div class="recomendar">
+                    <p><strong>Você recomendaria o curso de T.I para alguém?</strong></p>
+                    <div>
+                        <input id="cc" type="radio" name="opcao">
+                        <label for="cc">Com certeza</label>
+                    </div>
+
+                    <div>
+                        <input id="talvez" type="radio" name="opcao">
+                        <label for="talvez">Talvez</label>
+                    </div>
+
+                    <div>
+                        <input id="ns" type="radio" name="opcao">
+                        <label for="ns">Não sei</label>
+                    </div>
+                </div>
+
+                <div class="select-dois">
+                    <p><strong>Qual é a sua matéria técnica favorita do curso de T.I?</strong></p>
+
+                    <select name="mt" id="mt">
+                        <option value="" disabled selected>Selecione uma opção</option>
+                        <option value="dw">Design de Websites</option>
+                        <option value="dd">Design Digital</option>
+                        <option value="lp">Lógica de Programação</option>
+                        <option value="ic">Inovação e Criatividade</option>
+                    </select>
+                </div>
+
+                <div class="checkbox">
+                    <p><strong>Das outra matérias do curso, quais você mais gosta? <small>(Escolha quantas desejar)</small></strong></p>
+    
+                    <div class="materias">
+                        <input id="gr" type="checkbox">
+                        <label for="gr">Gramática</label>
+                    </div>
+
+                    <div class="materias">
+                        <input id="rd" type="checkbox">
+                        <label for="rd">Redação</label>
+                    </div>
+
+                    <div class="materias">
+                        <input id="lt" type="checkbox">
+                        <label for="lt">Literatura</label>
+                    </div>
+
+                    <div class="materias">
+                        <input id="in" type="checkbox">
+                        <label for="in">Inglês</label>
+                    </div>
+
+                    <div class="materias">
+                        <input id="es" type="checkbox">
+                        <label for="es">Espanhol</label>
+                    </div>
+
+                    <div class="materias">
+                        <input id="fis" type="checkbox">
+                        <label for="fis">Física</label>
+                    </div>
+
+                    <div class="materias">
+                        <input id="qui" type="checkbox">
+                        <label for="qui">Química</label>
+                    </div>
+
+                    <div class="materias">
+                        <input id="mat" type="checkbox">
+                        <label for="mat">Matemática</label>
+                    </div>
+
+                    <div class="materias">
+                        <input id="er" type="checkbox">
+                        <label for="er">Ensino Religioso</label>
+                    </div>
+
+                    <div class="materias">
+                        <input id="his" type="checkbox">
+                        <label for="his">História</label>
+                    </div>
+
+                    <div class="materias">
+                        <input id="geo" type="checkbox">
+                        <label for="geo">Geografia</label>
+                    </div>
+
+                    <div class="materias">
+                        <input id="edf" type="checkbox">
+                        <label for="edf">Educação Física</label>
+                    </div>
+
+                    <div class="materias">
+                        <input id="art" type="checkbox">
+                        <label for="art">Artes</label>
+                    </div>
+
+                    <div class="materias">
+                        <input id="bio" type="checkbox">
+                        <label for="bio">Biologia</label>
+                    </div>
+                </div>
+
+                <div class="comentarios">
+
+                    <p>Comentários ou sugestões?</p>
+
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Digite um comentário uma sugestão...">
+                    </textarea>
+                </div>
+
+                <div>
+                    <button>Enviar</button>
+                </div>
+    </div>
+    </fieldset>
+    </form>
+    </div>
+</body>
+
+</html>
